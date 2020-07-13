@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 // global classes
 * {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 .btn {
@@ -18,9 +21,9 @@ body {
 
 // navbar
 .my-navbar {
+  width: 100vw;
   box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
   position: fixed;
-  width: 100%;
   z-index: 1000;
 }
 
@@ -98,7 +101,7 @@ main {
 .about {
   padding-top: 4rem;
   height: 100vh;
-  .container-fluid {
+  .container {
     hr {
       border-bottom: 0.4px solid rgb(0, 135, 189);
       max-width: 2rem;
@@ -111,7 +114,7 @@ main {
       .col-xs {
         p {
           padding-top: 3rem;
-          max-width: 500px;
+          // max-width: 500px;
           font-size: 1rem;
         }
       }
@@ -130,7 +133,7 @@ main {
 // footer
 
 footer {
-  .container-fluid {
+  .container {
     hr {
       border-bottom: 0.4px solid rgb(0, 135, 189);
       max-width: 2rem;
@@ -138,7 +141,13 @@ footer {
       margin: 0 auto 1rem;
     }
   }
-  padding-top: 8rem;
+
   width: 100%;
   height: 100vh;
+}
+
+@media screen and (max-width: 360px) {
+  p {
+    max-width: 320px;
+  }
 }
