@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 * {
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
@@ -21,6 +20,7 @@ body {
 }
 
 .my-navbar {
+  overflow:none;
   width: 100vw;
   -webkit-box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
   box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
