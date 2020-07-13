@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saqlain | Web Developer and Designer</title>
+
+    <!-- Bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- iconify cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar my-navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#main"
+            ><img src="./assets/PortfolioLogo.png" alt="saqlain-logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="iconify bar-icon"
+              data-icon="fa-solid:bars"
+              data-inline="false"
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#main">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-scroll href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main id="main">
+      <div
+        class="container text-left"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <h3>Hi,</h3>
+        <h1>
+          My name is
+          <span class="blue">Saqlain,</span>
+        </h1>
+        <h1>
+          I'm a fullstack
+          <span class="blue">Web Developer</span>
+        </h1>
+        <br />
+        <a href="#portfolio" class="btn btn-primary p-3"
+          >Portfolio
+          <span
+            class="iconify bar-icon"
+            data-icon="fa-solid:arrow-right"
+            data-inline="false"
+          ></span
+        ></a>
+      </div>
+    </main>
+    <!-- main end -->
+
+    <!-- POrtfolio section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container" data-aos-duration="3000" data-aos="fade-right">
+        <h2 class="text-center">Portfolio</h2>
+        <hr />
+        <!-- portfolio cards grid -->
+        <div class="container mt-4 pt-4">
+          <div class="row text-center">
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="https://via.placeholder.com/150x150"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Brain MERN stack</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Visit site</a>
+                  <a href="#" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="https://via.placeholder.com/150x150"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Brain MERN stack</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Visit site</a>
+                  <a href="#" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs mx-auto my-3">
+              <div id="card" class="card mx-auto" style="width: 18rem;">
+                <img
+                  src="https://via.placeholder.com/150x150"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smart Brain MERN stack</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Visit site</a>
+                  <a href="#" class="btn btn-warning">Source code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- POrtfolio section -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div
+        class="container-fluid p-0"
+        data-aos-duration="3000"
+        data-aos="fade-left"
+      >
+        <h2 class="text-center pt-5">About</h2>
+        <hr />
+        <!-- grid container -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs mx-auto">
+              <img
+                src="./assets/profile.png"
+                alt="profile image"
+                class="rounded-circle img-fluid img-thumbnail mx-auto"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="col-xs">
+              <p>
+                I'm a Final year computer science student, fullstack web
+                Developer and designer.
+                <br />
+                I have a experience in React js, Node js and all the databases
+                including Relational and no-sql.
+                <br />
+                I can also work in CMS including wordpress and webflow.
+                <br />
+                <br />
+                And I love to solve problems with the help of web technologies
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center mt-5">Skills</h2>
+        <hr />
+        <div class="container my-skills text-center">
+          <span
+            class="iconify mr-3"
+            data-icon="logos:react"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:nodejs"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:html-5"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:css-3"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:javascript"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:es6"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:redux"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:wordpress"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:sass"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:mongodb"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:mysql"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:php"
+            data-inline="false"
+          ></span>
+          <span
+            class="iconify mr-3"
+            data-icon="logos:webflow"
+            data-inline="false"
+          ></span>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+    <br />
+
+    <!-- footer -->
+    <footer id="contact">
+      <div
+        class="container-fluid pt-2"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <h2 class="text-center">Contact</h2>
+        <hr />
+        <div class="container pt-3">
+          <br />
+          <div class="icons text-center pt-5">
+            <a
+              target="_blank"
+              href="https://facebook.com/saqlain.rasheed.54"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:facebook"
+                data-inline="false"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/saqlainrasheed"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:github"
+                data-inline="false"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.upwork.com/o/profiles/users/~0134c54cea5602c4fc/"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:upwork"
+                data-inline="false"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              href="https://facebook.com/saqlain.rasheed.54"
+              class="mr-3"
+            >
+              <span
+                class="iconify"
+                data-icon="logos:google-gmail"
+                data-inline="false"
+              ></span
+            ></a>
+          </div>
+          <hr style="margin-top: 2rem;" />
+          <p class="text-center">
+            &copy; Made with Love by
+            <a href="https://github.com/saqlainrasheed">Saqlain Rasheed</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap cdn -->
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom javascript -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

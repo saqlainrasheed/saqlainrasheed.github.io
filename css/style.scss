@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+// global classes
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  border-radius: 0.4rem;
+  font-size: 1rem !important;
+}
+.blue {
+  color: rgb(0, 135, 189);
+}
+
+// navbar
+.my-navbar {
+  box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  img {
+    width: 5rem;
+  }
+}
+
+.nav-link {
+  margin-right: 2.4rem;
+  transition: 0.1s ease;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  color: lighten($color: #000000, $amount: 20%);
+  &:hover {
+    color: rgb(0, 135, 189);
+  }
+}
+
+.nav-active a {
+  color: rgb(0, 135, 189);
+  font-weight: 600;
+}
+
+// Hero section
+
+main {
+  background: linear-gradient(#d2f6ff, #e0f9ff);
+  color: #363636;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: lowercase;
+  h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  a {
+    background-color: rgb(0, 135, 189);
+    letter-spacing: 0.1rem;
+    font-size: 1rem !important;
+  }
+}
+
+// portfolio section
+.portfolio {
+  transition: 1.5s ease;
+  padding-top: 5rem;
+  .container {
+    hr {
+      border-bottom: 0.4px solid rgb(0, 135, 189);
+      max-width: 2rem;
+      width: 100%;
+      margin: 0 auto 1rem;
+    }
+
+    #card {
+      box-shadow: 0px 10px 50px 10px rgba(172, 172, 172, 0.226);
+      cursor: pointer;
+    }
+    #card:hover {
+      transform: scale(1.05, 1.05);
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+}
+
+// About section
+.about {
+  padding-top: 4rem;
+  height: 100vh;
+  .container-fluid {
+    hr {
+      border-bottom: 0.4px solid rgb(0, 135, 189);
+      max-width: 2rem;
+      width: 100%;
+      margin: 0 auto 1rem;
+    }
+  }
+  .container {
+    .row {
+      .col-xs {
+        p {
+          padding-top: 3rem;
+          max-width: 500px;
+          font-size: 1rem;
+        }
+      }
+    }
+    img {
+      border: 0.5rem solid rgb(0, 135, 189) !important;
+      filter: grayscale(100%);
+    }
+  }
+  .my-skills {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+  }
+}
+
+// footer
+
+footer {
+  .container-fluid {
+    hr {
+      border-bottom: 0.4px solid rgb(0, 135, 189);
+      max-width: 2rem;
+      width: 100%;
+      margin: 0 auto 1rem;
+    }
+  }
+  padding-top: 8rem;
+  width: 100%;
+  height: 100vh;
+}
